@@ -2,3 +2,66 @@ body
 {
     margin:10px;
 }
+
+#maindiv {
+    width:1000px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center
+    
+    
+}
+
+#header
+{
+    width:1000px;
+    height:100px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+#middle
+{
+    display:flex;
+    flex-direction:row;
+}
+#leftdiv
+{
+    width:480px;
+    display:flex;
+    flex-direction:column;
+    border-style:solid;
+    border-width:2px;
+    border-color:darkgray;
+    border-radius:10px;
+}
+#updiv {
+    width: 480px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkgray;
+    border-radius: 10px;
+}
+#downdiv {
+    width: 480px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkgray;
+    border-radius: 10px;
+}
+#footer {
+    background-color:aliceblue;
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:darkgrey;
+    border-radius:5px;
+
+}
+
